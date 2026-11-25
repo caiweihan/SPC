@@ -1,0 +1,25 @@
+# Private experiments and local resources
+/analysis/
+/backup/
+/datasets/
+/docs/
+/envs/
+/logs/
+/methods/
+/outputs/
+/test/
+
+# Generated features and checkpoints
+*.h5
+*.hdf5
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
