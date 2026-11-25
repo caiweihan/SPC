@@ -8,7 +8,9 @@ from pathlib import Path
 import random
 
 PROJECT_DIR = Path(__file__).resolve().parents[1]
-METHODS_DIR = Path(os.environ.get("AIDETECTION_METHODS_DIR", PROJECT_DIR / "methods")).expanduser().resolve()
+METHODS_DIR = Path(
+    os.environ.get("SPC_METHODS_DIR") or os.environ.get("AIDETECTION_METHODS_DIR") or PROJECT_DIR / "methods"
+).expanduser().resolve()
 
 
 def local_path(path):

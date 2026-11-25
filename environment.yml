@@ -1,4 +1,4 @@
-name: aidetection
+name: spc
 channels:
   - defaults
 dependencies:

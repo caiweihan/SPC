@@ -7,7 +7,7 @@
 /logs/
 /methods/
 /outputs/
-/test/
+/tests/
 
 # Generated features and checkpoints
 *.h5
